@@ -1,4 +1,4 @@
-abc-documentation
+ABC Documentation
 =================
 
-ABC documentation for sleepdata.org
+Version controlled repository for ABC documentation on [sleepdata.org](http://sleepdata.org/datasets/abc)
