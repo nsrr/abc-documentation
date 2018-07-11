@@ -3,7 +3,7 @@
 The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.
 
 |  Channel          | Sampling rate (Hz)  |  Hardware filters (Hz)       |              Sensor type                  |
-|:-----------------:|:-------------------:|:----------------------------:|:-----------------------------------------:|
+|:------------------|:--------------------|:-----------------------------|:------------------------------------------|
 | F3                | 256                 | High Pass 0.16/Low Pass 105  | Gold cup electrode                        |
 | F4                | 256                 | High Pass 0.16/Low Pass 105  | Gold cup electrode                        |
 | C3                | 256                 | High Pass 0.16/Low Pass 105  | Gold cup electrode                        |
