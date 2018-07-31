@@ -1,6 +1,6 @@
 # Polysomnography introduction
 
-In-lab PSG.
+Patients underwent attended polysomnography (PSG) using the Compumedics E-Series (Abbotsford, Victoria Australia).
 
 Notes:
 

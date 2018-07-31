@@ -10,10 +10,10 @@ The dataset is broken down into `baseline`, `month09`, and `month18` files, cont
 
 ## Explanation of treatment arms
 
-Each ABC subject was randomized to LGB or CPAP. The assigned arm is represented by the [`rand_treatmentarm`](https://sleepdata.org/datasets/abc/variables/rand_treatmentarm) variable. The meanings of the arms are as follows:
+Each ABC subject was randomized to bariatric surgery (LGB) or continuous positive airway pressure (CPAP). The assigned arm is represented by the [`rand_treatmentarm`](https://sleepdata.org/datasets/abc/variables/rand_treatmentarm) variable. The meanings of the arms are as follows:
 
-1. LGB
-2. CPAP
+1. Laparoscopic Gastric Banding (LGB)
+2. Continuous Positive Airway Pressure (CPAP)
 
 ## Questions?
 
