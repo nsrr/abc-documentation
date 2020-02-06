@@ -2,7 +2,7 @@
 
 The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.
 
-| Channel               | EDF Label    | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
+| Channel               | EDF Label        | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
 |:---------------------:|:----------------:|:----------------:|:-------:|:------------------:|:---------------------------:|:------------------------------------:|
 | Left Frontal EEG      | F3               | F3               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Right Frontal EEG     | F4               | F4               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
@@ -23,25 +23,24 @@ The settings below represent the standards set at the beginning of the project f
 | Center Chin EMG       | Chin1            | Chin1            | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Left Submentalis EMG  | Chin2            | Chin2            | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Right Submentalis EMG | Chin3            | Chin3            | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
-| Thermistor            | Airflow          | Flow             | -       | 32                 |                             | Compumedics thermistor               |
-| Abdomen               | Abdo             | Abdo             | -       | 32                 |                             | Compumedics Summit IP RIP            |
-| Thorax                | Thorax           | Thorax           | -       | 32                 |                             | Compumedics Summit IP RIP            |
-| Snore                 | Snore            | Snore            | -       | 256                |                             | Compumedics snore mic                |
-| Sum                   | Sum              | Sum              | -       | 32                 |                             | Compumedics Summit IP RIP            |
-| Position              | PosSensor        | PosSensor        | -       | 16                 |                             | Compumedics external position sensor |
-| Ox Status             | Ox Status        | Ox Status        | -       | 16                 |                             | Nonin 8000 sensor                    |
-| Pulse                 | Pulse            | Pulse            | -       | 16                 |                             | Nonin 8000 sensor                    |
-| SpO2                  | SpO2             | SpO2             |         | 16                 |                             | Nonin 8000 sensor                    |
-| Nasal Pressure        | Nasal Pressure   | Nasal Pressure   | -       | 32                 |                             | Nasal cannula                        |
-| CPAP Flow             | CPAP Flow        | CPAP Flow        | -       | 32                 |                             |                                      |
-| CPAP Pressure         | CPAP Press       | CPAP Press       | -       | 16                 |                             |                                      |
-| Plethysmography       | Pleth            | Pleth            | -       | 256                |                             | Nonin 8000 sensor                    |
-| Derived Heart Rate    | Derived HR       | Derived HR       | -       | 64/512             |                             | Derived from ECG1 and ECG2           |
-| Light                 | Light            | Light            | -       | 64                 |                             |                                      |
-| Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 |                             |                                      |
-| Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                |                             |                                      |
-| REF                   | Fpz              | -                | -       |                    |                             |                                      |
-
+| Thermistor            | Airflow          | Airflow             | -       | 32                 | -                           | Compumedics thermistor               |
+| Abdomen               | Abdo             | Abdo             | -       | 32                 | -                           | Compumedics Summit IP RIP            |
+| Thorax                | Thorax           | Thorax           | -       | 32                 | -                           | Compumedics Summit IP RIP            |
+| Snore                 | Snore            | Snore            | -       | 256                | -                           | Compumedics snore mic                |
+| Sum                   | Sum              | Sum              | -       | 32                 | -                           | Compumedics Summit IP RIP            |
+| Position              | PosSensor        | PosSensor        | -       | 16                 | -                           | Compumedics external position sensor |
+| Oximetry Status       | Ox Status        | Ox Status        | -       | 16                 | -                           | Nonin 8000 sensor                    |
+| Pulse                 | Pulse            | Pulse            | -       | 16                 | -                           | Nonin 8000 sensor                    |
+| SpO2                  | SpO2             | SpO2             |         | 16                 | -                           | Nonin 8000 sensor                    |
+| Nasal Pressure        | Nasal Pressure   | Nasal Pressure   | -       | 32                 | -                           | Nasal cannula                        |
+| CPAP Flow             | CPAP Flow        | CPAP Flow        | -       | 32                 | -                           | -                                    |
+| CPAP Pressure         | CPAP Press       | CPAP Press       | -       | 16                 | -                           | -                                    |
+| Plethysmography       | Pleth            | Pleth            | -       | 256                | -                           | Nonin 8000 sensor                    |
+| Derived Heart Rate    | Derived HR       | Derived HR       | -       | 64/512             | -                           | Derived from ECG1 and ECG2           |
+| Light                 | Light            | Light            | -       | 64                 | -                           | -                                    |
+| Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 | -                           | -                                    |
+| Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
+| REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
 
 ## Questions?
 
