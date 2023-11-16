@@ -18,7 +18,15 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
+### Covariate datasets
+
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core data from baseline and follow-up (9- and 18-Month) visits.
+
+```
+The dataset is broken down into `baseline`, `month09`, and `month18` files, containing 49, 43, and 40 records, respectively.
+```
+
+### PSG data
 
 **[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
 
