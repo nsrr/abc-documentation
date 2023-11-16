@@ -14,7 +14,3 @@ Each ABC subject was randomized to bariatric surgery (LGB) or continuous positiv
 
 1. Laparoscopic Gastric Banding (LGB)
 2. Continuous Positive Airway Pressure (CPAP)
-
-## Questions?
-
-Please reach out to us at support@sleepdata.org or in the [Forum](https://sleepdata.org/forum) if you have questions.
