@@ -50,8 +50,10 @@ The Apnea, Bariatric surgery, and CPAP study (ABC Study) was supported by Nation
 ## Changelog
 June 12, 2020
 - Update suggested citation and acknowledgment language
+
 December 28, 2018
 - Add note about hypopnea event tags to PSG introduction
+
 July 11, 2018
 - Start fleshing out documentation
 
