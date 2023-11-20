@@ -2,8 +2,6 @@
 
 The Apnea, Bariatric surgery, and CPAP (ABC) study aimed to assess the role of bariatric (weight loss) surgery as compared to continuous positive airway pressure (CPAP) therapy plus weight loss counseling for the treatment of patients with class II obesity and those who have severe obstructive sleep apnea (OSA).
 
-Read more about ABC at [ClinicalTrials.gov (NCT01187771)](http://clinicaltrials.gov/ct2/show/NCT01187771).
-
 ## Citation and acknowledgement
 
 When using this dataset, please cite the following:
@@ -40,3 +38,6 @@ The dataset is broken down into `baseline`, `month09`, and `month18` files, cont
 ## Recent Changes
 
 - Find a complete list of changes in the [CHANGELOG.md](:pages_path:/CHANGELOG.md)
+
+## References
+- ABC at ClinicalTrials.gov: [ClinicalTrials.gov (NCT01187771)](http://clinicaltrials.gov/ct2/show/NCT01187771)
