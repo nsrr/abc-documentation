@@ -5,27 +5,27 @@ The Apnea, Bariatric surgery, and CPAP (ABC) study aimed to assess the role of b
 ## Methods
 
 ## PSG Collection
-PSG signal data were collected using the Compumedics E-Series system (Abbotsford, Victoria, Australia). EDF signal and XML signals were later exported from the Compumedics E-Series system.
+PSG signal data were collected using the Compumedics E-Series system (Abbotsford, Victoria, Australia). EDF signal and XML signals were later exported from the Compumedics E-Series system. The raw data is captured by a NONIN Model 3100 Wrist Oximeter.
 
 1. EDF - Signal files in the European Data Format exported from Compumedics Profusion.
 2. XML (Profusion) - Annotation files exported from Compumedics Profusion. (Learn more...)
 3. XML (NSRR) - Annotation files processed in the EDF Editor and Translator tool.
 
-## PSG Scoring
+View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
 
+## PSG Scoring
+Hypopnea events are represented by two different tags in the XML annotation files. Events with the Hypopnea tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the Unsure tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
+
+If interested in all hypopneas that have a 30% or more reduction in airflow, both event types should be included. If interested in events with greater reduction in airflow (>50%), use those that were labeled with the Unsure tag.
+
+The Unsure tag does not represent uncertainty about the event, but rather was the only custom tag available in the original polysomnography scoring program.
+
+Additional criteria can be applied to limit events based on associated desaturation and/or arousal.
 ## Data overview
 
 ### Covariate datasets
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core data from baseline and follow-up (9- and 18-Month) visits.
-
-```
-The dataset is broken down into `baseline`, `month09`, and `month18` files, containing 49, 43, and 40 records, respectively.
-```
-
-### PSG data
-
-**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
 
 ## Protocols and manuals
 
