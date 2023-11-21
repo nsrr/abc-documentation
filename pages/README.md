@@ -48,6 +48,9 @@ The Apnea, Bariatric surgery, and CPAP study (ABC Study) was supported by Nation
 - [Montage and Sampling Rate Information](:pages_path:/montage-and-sampling-rate-information.md)
 
 ## Changelog
+July 2018
+- Polysomnography data uploaded to sleepdata.org after exports from Compumedics Profusion.
+
 June 12, 2020
 - Update suggested citation and acknowledgment language
 
