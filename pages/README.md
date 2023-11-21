@@ -2,18 +2,7 @@
 
 The Apnea, Bariatric surgery, and CPAP (ABC) study aimed to assess the role of bariatric (weight loss) surgery as compared to continuous positive airway pressure (CPAP) therapy plus weight loss counseling for the treatment of patients with class II obesity and those who have severe obstructive sleep apnea (OSA).
 
-## Methods
-
-## PSG Collection
-PSG signal data were collected using the Compumedics E-Series system (Abbotsford, Victoria, Australia). EDF signal and XML signals were later exported from the Compumedics E-Series system. The raw data is captured by a NONIN Model 3100 Wrist Oximeter.
-
-1. EDF - Signal files in the European Data Format exported from Compumedics Profusion.
-2. XML (Profusion) - Annotation files exported from Compumedics Profusion. (Learn more...)
-3. XML (NSRR) - Annotation files processed in the EDF Editor and Translator tool.
-
-View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
-
-# Dataset introduction
+## Data Collection
 
 The [ABC dataset](:files_path:/datasets) posted on the NSRR has gone through various post-processing steps in order to prepare the data for more widespread sharing.
 
@@ -27,6 +16,16 @@ Each ABC subject was randomized to bariatric surgery (LGB) or continuous positiv
 
 1. Laparoscopic Gastric Banding (LGB)
 2. Continuous Positive Airway Pressure (CPAP)
+## Methods
+
+## PSG Collection
+PSG signal data were collected using the Compumedics E-Series system (Abbotsford, Victoria, Australia). EDF signal and XML signals were later exported from the Compumedics E-Series system. The raw data is captured by a NONIN Model 3100 Wrist Oximeter.
+
+1. EDF - Signal files in the European Data Format exported from Compumedics Profusion.
+2. XML (Profusion) - Annotation files exported from Compumedics Profusion. (Learn more...)
+3. XML (NSRR) - Annotation files processed in the EDF Editor and Translator tool.
+
+View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
 
 ## PSG Scoring
 Hypopnea events are represented by two different tags in the XML annotation files. Events with the Hypopnea tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the Unsure tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
