@@ -26,6 +26,7 @@ PSG signal data were collected using the Compumedics E-Series system (Abbotsford
 3. XML (NSRR) - Annotation files processed in the EDF Editor and Translator tool.
 
 View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
+potential insert of data set -
 
 ## PSG Scoring
 Hypopnea events are represented by two different tags in the XML annotation files. Events with the Hypopnea tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the Unsure tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
@@ -54,6 +55,7 @@ Bakker JP, Tavakkoli A, Rueschman M, Wang W, Andrews R, Malhotra A, Owens RL, An
 Please include the following text in the Acknowledgements:
 
 The Apnea, Bariatric surgery, and CPAP study (ABC Study) was supported by National Institutes of Health grants R01HL106410 and K24HL127307. Philips Respironics donated the CPAP machines and supplies used in the perioperative period for patients undergoing bariatric surgery. The National Sleep Research Resource was supported by the National Heart, Lung, and Blood Institute (R24 HL114473, 75N92019R002).
+
 ## Protocols and manuals
 
 - [ABC Manual of Procedures](:files_path:/documentation?f=ABC_Manual_of_Procedures.pdf)
