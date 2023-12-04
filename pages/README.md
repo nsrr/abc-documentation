@@ -69,6 +69,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 | Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 | -                           | -                                    |
 | Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
 | REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
+
 </details>
 
 ## PSG Scoring
