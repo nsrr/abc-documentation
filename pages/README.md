@@ -13,7 +13,7 @@ PSG signal data were collected using the Compumedics E-Series system (Abbotsford
 
 View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
 
-The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.
+<details><summary>The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.</summary>
 
 | Channel               | EDF Label        | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
 |:---------------------:|:----------------:|:----------------:|:-------:|:------------------:|:---------------------------:|:------------------------------------:|
@@ -53,7 +53,7 @@ The settings below represent the standards set at the beginning of the project f
 | Light                 | Light            | Light            | -       | 64                 | -                           | -                                    |
 | Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 | -                           | -                                    |
 | Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
-| REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
+| REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |</details>
 
 ### PSG Scoring
 Hypopnea events are represented by two different tags in the XML annotation files. Events with the Hypopnea tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the Unsure tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
@@ -97,9 +97,9 @@ The ABC dataset is only available for non-commercial use.
 ## Citation and acknowledgement
 When using this dataset, please cite the following:
 
-Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.
+Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: https://doi.org/10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.
 
-Bakker JP, Tavakkoli A, Rueschman M, Wang W, Andrews R, Malhotra A, Owens RL, Anand A, Dudley KA, Patel SR. Gastric Banding Surgery versus Continuous Positive Airway Pressure for Obstructive Sleep Apnea: A Randomized Controlled Trial. Am J Respir Crit Care Med. 2018 Apr 15;197(8):1080-1083. doi: 10.1164/rccm.201708-1637LE. PMID: 29035093; PMCID: PMC5909166.
+Bakker JP, Tavakkoli A, Rueschman M, Wang W, Andrews R, Malhotra A, Owens RL, Anand A, Dudley KA, Patel SR. Gastric Banding Surgery versus Continuous Positive Airway Pressure for Obstructive Sleep Apnea: A Randomized Controlled Trial. Am J Respir Crit Care Med. 2018 Apr 15;197(8):1080-1083. doi: https://www.atsjournals.org/doi/10.1164/rccm.201708-1637LE?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed. PMID: 29035093; PMCID: PMC5909166.
 
 Please include the following text in the Acknowledgements:
 
@@ -112,16 +112,16 @@ The Apnea, Bariatric surgery, and CPAP study (ABC Study) was supported by Nation
 - [Montage and Sampling Rate Information](:pages_path:/montage-and-sampling-rate-information.md)
 
 ## Changelog
-July 2018
+*July 2018*
 - Polysomnography data uploaded to sleepdata.org after exports from Compumedics Profusion.
 
-June 12, 2020
+*June 12, 2020*
 - Update suggested citation and acknowledgment language
 
-December 28, 2018
+*December 28, 2018*
 - Add note about hypopnea event tags to PSG introduction
 
-July 11, 2018
+*July 11, 2018*
 - Start fleshing out documentation
 
 ## References
