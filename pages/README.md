@@ -85,7 +85,7 @@ Additional criteria can be applied to limit events based on associated desaturat
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core data from baseline and follow-up (9- and 18-Month) visits.
 
-### Access and usage restrictions
+## Access and usage restrictions
 The ABC dataset is only available for non-commercial use.
 
 ## Citation and acknowledgement
