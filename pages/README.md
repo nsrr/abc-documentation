@@ -10,7 +10,7 @@ The [ABC dataset](:files_path:/datasets) posted on the NSRR has gone through var
 
 The dataset is broken down into `baseline`, `month09`, and `month18` files, containing 49, 43, and 40 records, respectively. The primary subject identifier is [`nsrrid`](https://sleepdata.org/datasets/abc/variables/nsrrid).
 
-## Explanation of treatment arms
+### Explanation of treatment arms
 
 Each ABC subject was randomized to bariatric surgery (LGB) or continuous positive airway pressure (CPAP). The assigned arm is represented by the [`rand_treatmentarm`](https://sleepdata.org/datasets/abc/variables/rand_treatmentarm) variable. The meanings of the arms are as follows:
 
@@ -19,7 +19,7 @@ Each ABC subject was randomized to bariatric surgery (LGB) or continuous positiv
 
 ## Methods
 
-## PSG Collection
+### PSG Collection
 PSG signal data were collected using the Compumedics E-Series system (Abbotsford, Victoria, Australia). EDF signal and XML signals were later exported from the Compumedics E-Series system. The raw data is captured by a NONIN Model 3100 Wrist Oximeter.
 
 1. EDF - Signal files in the European Data Format exported from Compumedics Profusion.
@@ -70,7 +70,7 @@ The settings below represent the standards set at the beginning of the project f
 | Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
 | REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
 
-## PSG Scoring
+### PSG Scoring
 Hypopnea events are represented by two different tags in the XML annotation files. Events with the Hypopnea tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the Unsure tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
 
 If interested in all hypopneas that have a 30% or more reduction in airflow, both event types should be included. If interested in events with greater reduction in airflow (>50%), use those that were labeled with the Unsure tag.
@@ -78,16 +78,17 @@ If interested in all hypopneas that have a 30% or more reduction in airflow, bot
 The Unsure tag does not represent uncertainty about the event, but rather was the only custom tag available in the original polysomnography scoring program.
 
 Additional criteria can be applied to limit events based on associated desaturation and/or arousal.
+
 ## Data overview
 
 ### Covariate datasets
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core data from baseline and follow-up (9- and 18-Month) visits.
 
-## Access and usage restrictions
+### Access and usage restrictions
 The ABC dataset is only available for non-commercial use.
 
-## Citations and Acknowledgements
+## Citation and acknowledgement
 When using this dataset, please cite the following:
 
 Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.
@@ -98,11 +99,10 @@ Please include the following text in the Acknowledgements:
 
 The Apnea, Bariatric surgery, and CPAP study (ABC Study) was supported by National Institutes of Health grants R01HL106410 and K24HL127307. Philips Respironics donated the CPAP machines and supplies used in the perioperative period for patients undergoing bariatric surgery. The National Sleep Research Resource was supported by the National Heart, Lung, and Blood Institute (R24 HL114473, 75N92019R002).
 
-## Protocols and manuals
-
+### Protocols and manuals
 - [ABC Manual of Procedures](:files_path:/documentation?f=ABC_Manual_of_Procedures.pdf)
 
-## Equipment
+### Equipment
 - [Montage and Sampling Rate Information](:pages_path:/montage-and-sampling-rate-information.md)
 
 ## Changelog
