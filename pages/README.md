@@ -1,12 +1,12 @@
-# About
+## About
 
 The Apnea, Bariatric surgery, and CPAP (ABC) study aimed to assess the role of bariatric (weight loss) surgery as compared to continuous positive airway pressure (CPAP) therapy plus weight loss counseling for the treatment of patients with class II obesity and those who have severe obstructive sleep apnea (OSA).
 
-## Data Collection
+### Data Collection
 
 The [ABC dataset](:files_path:/datasets) posted on the NSRR has gone through various post-processing steps in order to prepare the data for more widespread sharing.
 
-## Structure
+### Structure
 
 The dataset is broken down into `baseline`, `month09`, and `month18` files, containing 49, 43, and 40 records, respectively. The primary subject identifier is [`nsrrid`](https://sleepdata.org/datasets/abc/variables/nsrrid).
 
@@ -16,6 +16,7 @@ Each ABC subject was randomized to bariatric surgery (LGB) or continuous positiv
 
 1. Laparoscopic Gastric Banding (LGB)
 2. Continuous Positive Airway Pressure (CPAP)
+
 ## Methods
 
 ## PSG Collection
@@ -29,6 +30,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 
 <details>
 <summary>The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.</summary>
+
 | Channel               | EDF Label        | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
 |:---------------------:|:----------------:|:----------------:|:-------:|:------------------:|:---------------------------:|:------------------------------------:|
 | Left Frontal EEG      | F3               | F3               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
@@ -68,6 +70,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 | Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 | -                           | -                                    |
 | Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
 | REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
+
 </details>
 
 ## PSG Scoring
