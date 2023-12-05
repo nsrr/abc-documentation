@@ -2,21 +2,6 @@
 
 The Apnea, Bariatric surgery, and CPAP (ABC) study aimed to assess the role of bariatric (weight loss) surgery as compared to continuous positive airway pressure (CPAP) therapy plus weight loss counseling for the treatment of patients with class II obesity and those who have severe obstructive sleep apnea (OSA).
 
-### Data Collection
-
-The [ABC dataset](:files_path:/datasets) posted on the NSRR has gone through various post-processing steps in order to prepare the data for more widespread sharing.
-
-### Structure
-
-The dataset is broken down into `baseline`, `month09`, and `month18` files, containing 49, 43, and 40 records, respectively. The primary subject identifier is [`nsrrid`](https://sleepdata.org/datasets/abc/variables/nsrrid).
-
-### Explanation of treatment arms
-
-Each ABC subject was randomized to bariatric surgery (LGB) or continuous positive airway pressure (CPAP). The assigned arm is represented by the [`rand_treatmentarm`](https://sleepdata.org/datasets/abc/variables/rand_treatmentarm) variable. The meanings of the arms are as follows:
-
-1. Laparoscopic Gastric Banding (LGB)
-2. Continuous Positive Airway Pressure (CPAP)
-
 ## Methods
 
 ### PSG Collection
@@ -81,9 +66,30 @@ Additional criteria can be applied to limit events based on associated desaturat
 
 ## Data overview
 
+<details>
+
+<summary>Old data documentation</summary>
+
 ### Covariate datasets
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core data from baseline and follow-up (9- and 18-Month) visits.
+
+### Data Collection
+
+The [ABC dataset](:files_path:/datasets) posted on the NSRR has gone through various post-processing steps in order to prepare the data for more widespread sharing.
+
+### Structure
+
+The dataset is broken down into `baseline`, `month09`, and `month18` files, containing 49, 43, and 40 records, respectively. The primary subject identifier is [`nsrrid`](https://sleepdata.org/datasets/abc/variables/nsrrid).
+
+### Explanation of treatment arms
+
+Each ABC subject was randomized to bariatric surgery (LGB) or continuous positive airway pressure (CPAP). The assigned arm is represented by the [`rand_treatmentarm`](https://sleepdata.org/datasets/abc/variables/rand_treatmentarm) variable. The meanings of the arms are as follows:
+
+1. Laparoscopic Gastric Banding (LGB)
+2. Continuous Positive Airway Pressure (CPAP)
+
+</details>
 
 ## Access and usage restrictions
 The ABC dataset is only available for non-commercial use.
