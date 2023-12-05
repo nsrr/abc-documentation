@@ -98,9 +98,9 @@ The ABC dataset is only available for non-commercial use.
 ## Citation and acknowledgement
 When using this dataset, please cite the following:
 
-Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: https://doi.org/10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.
+[Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: doi.org/10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.] (https://doi.org/10.1093/jamia/ocy064)
 
-Bakker JP, Tavakkoli A, Rueschman M, Wang W, Andrews R, Malhotra A, Owens RL, Anand A, Dudley KA, Patel SR. Gastric Banding Surgery versus Continuous Positive Airway Pressure for Obstructive Sleep Apnea: A Randomized Controlled Trial. Am J Respir Crit Care Med. 2018 Apr 15;197(8):1080-1083. doi: https://www.atsjournals.org/doi/10.1164/rccm.201708-1637LE?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed. PMID: 29035093; PMCID: PMC5909166.
+[Bakker JP, Tavakkoli A, Rueschman M, Wang W, Andrews R, Malhotra A, Owens RL, Anand A, Dudley KA, Patel SR. Gastric Banding Surgery versus Continuous Positive Airway Pressure for Obstructive Sleep Apnea: A Randomized Controlled Trial. Am J Respir Crit Care Med. 2018 Apr 15;197(8):1080-1083. doi: doi.org/10.1164/rccm.201708-1637LE. PMID: 29035093; PMCID: PMC5909166.] (https://www.atsjournals.org/doi/10.1164/rccm.201708-1637LE?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 
 Please include the following text in the Acknowledgements:
 
