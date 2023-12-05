@@ -53,7 +53,8 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 | Light                 | Light            | Light            | -       | 64                 | -                           | -                                    |
 | Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 | -                           | -                                    |
 | Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
-| REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |</details>
+| REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
+</details>
 
 ### PSG Scoring
 Hypopnea events are represented by two different tags in the XML annotation files. Events with the Hypopnea tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the Unsure tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
