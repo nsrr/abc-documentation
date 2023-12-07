@@ -13,9 +13,7 @@ PSG signal data were collected using the Compumedics E-Series system (Abbotsford
 
 View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Overnight polysomnography (PSG) data from baseline and follow-up (9- and 18-Month) visits.
 
-<summary>The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.</summary>
-
-<details>
+<details><summary>The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.</summary>
 | Channel               | EDF Label        | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
 |:---------------------:|:----------------:|:----------------:|:-------:|:------------------:|:---------------------------:|:------------------------------------:|
 | Left Frontal EEG      | F3               | F3               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
