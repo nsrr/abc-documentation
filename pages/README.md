@@ -38,7 +38,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 | Center Chin EMG       | Chin1            | Chin1            | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Left Submentalis EMG  | Chin2            | Chin2            | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Right Submentalis EMG | Chin3            | Chin3            | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
-| Airflow            | Airflow          | Airflow             | -       | 32                 | -                           | Compumedics thermistor               |
+| Airflow               | Airflow      | Airflow              | -       | 32                 | -                           | Compumedics thermistor               |
 | Abdomen               | Abdo             | Abdo             | -       | 32                 | -                           | Compumedics Summit IP RIP            |
 | Thorax                | Thorax           | Thorax           | -       | 32                 | -                           | Compumedics Summit IP RIP            |
 | Snore                 | Snore            | Snore            | -       | 256                | -                           | Compumedics snore mic                |
