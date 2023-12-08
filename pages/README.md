@@ -19,6 +19,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
   
 | Channel               | EDF Label        | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
 |:---------------------:|:----------------:|:----------------:|:-------:|:------------------:|:---------------------------:|:------------------------------------:|
+
 | Left Frontal EEG      | F3               | F3               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Right Frontal EEG     | F4               | F4               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
 | Left Central EEG      | C3               | C3               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
