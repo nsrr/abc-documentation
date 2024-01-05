@@ -16,7 +16,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 <details>
   <summary>The settings below represent the standards set at the beginning of the project for E-Series data collection. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.</summary>
   
-
+<table>
 | Channel               | EDF Label        | Input 1          | Input 2 | Sampling rate (Hz) | Hardware filters (Hz)       | Sensor type                          |
 |:---------------------:|:----------------:|:----------------:|:-------:|:------------------:|:---------------------------:|:------------------------------------:|
 | Left Frontal EEG      | F3               | F3               | Fpz     | 256                | High Pass 0.16/Low Pass 105 | Gold cup electrode                   |
@@ -56,7 +56,7 @@ View the PSG data here: **[/polysomnography](:files_path:/polysomnography)** Ove
 | Manual Pos            | Manual Pos       | Manual Pos       | -       | 64                 | -                           | -                                    |
 | Respiratory Rate      | Respiratory Rate | Respiratory Rate | -       | 512                | -                           | -                                    |
 | REF                   | -                | Fpz              | -       | -                  | -                           | -                                    |
-
+</table>
 
 </details>
 
